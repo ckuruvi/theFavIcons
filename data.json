@@ -1,22 +1,31 @@
 [
   {
-    "name": "Charles Kuruvila",
+    "firstName": "Charles",
+    "lastName": "Kuruvila",
     "bio":"Original Gangster",
-    "image":"/public/assets/images/OG.jpeg"
+    "image":"assets/images/OG.jpg",
+    "likes":0
+
   },
   {
-    "name": "Ethan Coyne",
+    "firstName": "Ethan",
+    "lastName": "Coyne",
     "bio":"Original Punkster",
-    "image":"/public/assets/images/OP.jpeg"
+    "image":"assets/images/OP.jpg",
+    "likes":0
   },
   {
-    "name": "Bob Hinkley",
+    "firstName": "Bob",
+    "lastName": "Hinkley",
     "bio":"Original Prankster",
-    "image":"/public/assets/images/OPR.jpeg"
+    "image":"assets/images/OPR.jpg",
+    "likes":0
   },
   {
-    "name": "Mathias Balogh",
+    "firstName": "Mathias",
+    "lastName": "Balogh",
     "bio":"Original Spankster",
-    "image":"/public/assets/images/OS.jpeg"
+    "image":"assets/images/OS.jpg",
+    "likes":0
   }
 ]
