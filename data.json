@@ -2,7 +2,7 @@
   {
     "firstName": "Charles",
     "lastName": "Kuruvila",
-    "bio":"Original Gangster",
+    "bio":"The woods are lovely, dark and deep. But I have promises to keep, and miles to go before I sleep. -Robert Frost",
     "image":"assets/images/OG.jpg",
     "likes":0
 
@@ -10,21 +10,21 @@
   {
     "firstName": "Ethan",
     "lastName": "Coyne",
-    "bio":"Original Punkster",
+    "bio":"The only thing we have to fear, is fear itself. -President Dwight D. Eisenhower",
     "image":"assets/images/OP.jpg",
     "likes":0
   },
   {
     "firstName": "Bob",
     "lastName": "Hinkley",
-    "bio":"Original Prankster",
+    "bio":"'If you can't handle me at my worst, you don't deserve me at my best. -Abraham Lincoln' -Bob Hinkley",
     "image":"assets/images/OPR.jpg",
     "likes":0
   },
   {
     "firstName": "Mathias",
     "lastName": "Balogh",
-    "bio":"Mathias was born in Beloit, Wi to Hungarian immigrants. He likes food, fun, good company, and wishes for a sensible work-life balance.",
+    "bio":"If you chase two rabbits, both will get away. -Confuscius",
     "image":"assets/images/OS.jpg",
     "likes":0
   }

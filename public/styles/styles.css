@@ -16,7 +16,8 @@ li {
   border-radius: 40px;
 }
 body {
-  background-image: url(assets/images/beachbackground.jpg);
+  background-image: url(../assets/images/Pillars_of_Creation.jpeg);
+  background-size:cover;
   color: rgb(255, 255, 255)
 }
 button {
