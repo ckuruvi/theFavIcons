@@ -24,7 +24,8 @@ app.post('/likes/Charles', function(req,res){
     }
   });
 //  console.log(bios);
-  res.sendStatus(200);
+  //res.sendStatus(200);
+  res.redirect('/likes');
 });
 app.post('/likes/Ethan', function(req,res){
   bios.forEach(function(person){
@@ -33,7 +34,8 @@ app.post('/likes/Ethan', function(req,res){
     }
   });
 //  console.log(bios);
-  res.sendStatus(200);
+  //res.sendStatus(200);
+  res.redirect('/likes');
 });
 app.post('/likes/Bob', function(req,res){
   bios.forEach(function(person){
@@ -42,7 +44,8 @@ app.post('/likes/Bob', function(req,res){
     }
     });
   //  console.log(bios);
-    res.sendStatus(200);
+    //res.sendStatus(200);
+    res.redirect('/likes');
 });
 app.post('/likes/Mathias', function(req,res){
   bios.forEach(function(person){
@@ -51,10 +54,12 @@ app.post('/likes/Mathias', function(req,res){
     }
   });
 //  console.log(bios);
-  res.sendStatus(200);
+  //res.sendStatus(200);
+  res.redirect('/likes');
 });
 
 app.get('/likes', function(req, res) {
+  console.log("inside get function with route like....");
   console.log(bios);
   res.send(bios);
   //res.sendStatus(200);

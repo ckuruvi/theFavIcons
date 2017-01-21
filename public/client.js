@@ -32,17 +32,18 @@ function getBios(){
     $.ajax({
       url: likeWho,
       type: 'POST',
-      success: updateLikes
+      // success: updateLikes
+      success:displayLikes
     })
   }
-  function updateLikes(){
-    console.log('updateLikes function success');
-    $.ajax({
-      url:'/likes',
-      type: 'GET',
-      success: displayLikes
-    });
-  }
+  // function updateLikes(){
+  //   console.log('updateLikes function success');
+  //   $.ajax({
+  //     url:'/likes',
+  //     type: 'GET',
+  //     success: displayLikes
+  //   });
+  // }
 
   function displayLikes(bios){
     bios.forEach(function(person){
