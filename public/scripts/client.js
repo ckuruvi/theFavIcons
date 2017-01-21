@@ -23,7 +23,7 @@ function getBios(){
   // $('#bios').empty();
     bios.forEach(function(person){
       $('#bios').append('<li>'+'<img src="'+person.image+'"/><br>'+'Name: '+person.firstName+' '+person.lastName
-      +'<br>Bio: '+person.bio+'<br><button id="'+person.firstName+'"class="like">Like</button>&nbsp;&nbsp;<span id="'+person.lastName+'"></span></li>');
+      +'<br>Bio: '+person.bio+'<br><button id="'+person.firstName+'"class="like">Like</button>&nbsp;&nbsp;<span id="'+person.lastName+'">0</span></li>');
     });
 }
 
@@ -32,8 +32,13 @@ function getBios(){
     $.ajax({
       url: likeWho,
       type: 'POST',
+<<<<<<< HEAD:public/client.js
       // success: updateLikes
       success:displayLikes
+=======
+      //success: updateLikes
+      success: displayLikes
+>>>>>>> 4d4d1deb365dd035a45cd12b76d463596c7e97d7:public/scripts/client.js
     })
   }
   // function updateLikes(){

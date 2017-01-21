@@ -1,0 +1,31 @@
+img {
+  max-width: 300px;
+  max-height: 300px;
+  display: inline-block;
+  border-radius: 50%;
+}
+li {
+  max-width: 300px;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  background-color: rgb(10, 179, 153);
+  border-radius: 40px;
+}
+body {
+  background-image: url(../assets/images/Pillars_of_Creation.jpeg);
+  background-size:cover;
+  color: rgb(255, 255, 255)
+}
+button {
+  background-color: rgb(179, 10, 10);
+  border-radius: 50%
+}
+h1 {
+  text-align: center;
+  background-color: rgb(10, 179, 153);
+  border-radius: 50%;
+}
